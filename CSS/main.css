@@ -1,15 +1,52 @@
+body {
+    margin:0;
+}
+
 a {
     color:#CBE9BF;
 }
 a:hover {
     color:#65BE41;
 }
-#grad {
-    background-image: linear-gradient(to bottom right, black,  #243337, #DEBA81);
-}
+
 .title {
     font-size:5rem;
     color:#CBE9BF;
+    text-shadow:0 0 5px black;
+    z-index:1;
+}
+
+/* Parallax background */
+.wrapper {
+    height:250vh;
+    overflow-y:auto;
+    overflow-x:hidden;
+    perspective:10px;
+}
+header {
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:250vh;
+    transform-style:preserve-3d;
+    z-index:-1;
+}
+.background,.foregound {
+    position:absolute;
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+.background {
+    transform:translateZ(-10px) scale(2);
+}
+.foreground {
+    transform:translateZ(-5px) scale(1.5);
+}
+
+#grad {
+    background-image: linear-gradient(to bottom, black, #3e3b2f, #edd0a2, white);
 }
 .circle {
     height:100px;
@@ -21,5 +58,13 @@ a:hover {
     top:90%;
     left:95%;
 
+    overflow:hidden;
+}
+
+.background-image {
+    width:105%;
+    position:absolute;
+    left:-5;
+    bottom:0;
     overflow:hidden;
 }
