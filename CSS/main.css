@@ -22,7 +22,9 @@ a:hover {
     background-image: linear-gradient(to bottom, black, #3e3b2f, #edd0a2, white);
 }
 #grad2 {
-    background-image:linear-gradient(to right,rgba(255,255,255,0), rgba(255,255,255,1));
+    background-image:radial-gradient(circle, rgba(255,255,255,1), rgba(255,255,255,0));
+    border-radius:50%;
+    size:200%;
 }
 
 .circle {
@@ -31,23 +33,26 @@ a:hover {
     background-color:yellow;
     border-radius:50%;
 
+    z-index:-1;
     position:absolute;
-    top:90%;
-    left:95%;
+    top:60%;
+    left:50%;
 
     overflow:hidden;
 }
 .moon {
-    box-shadow:5px 10px white;
+    position:absolute; 
+    top:10%;
+    left:90%;
 }
 .background,.foreground {
     position:absolute;
 }
 
 .background-image {
-    width:105%;
+    width:100%;
     position:absolute;
-    left:-5;
+    left:0;
     bottom:0;
     overflow:hidden;
 }
