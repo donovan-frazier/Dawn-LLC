@@ -17,33 +17,6 @@ a:hover {
 }
 
 /* Parallax background */
-.wrapper {
-    height:250vh;
-    overflow-y:auto;
-    overflow-x:hidden;
-    perspective:10px;
-}
-header {
-    position:relative;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:250vh;
-    transform-style:preserve-3d;
-    z-index:-1;
-}
-.background,.foregound {
-    position:absolute;
-    height:100%;
-    width:100%;
-    object-fit:cover;
-}
-.background {
-    transform:translateZ(-10px) scale(2);
-}
-.foreground {
-    transform:translateZ(-5px) scale(1.5);
-}
 
 #grad {
     background-image: linear-gradient(to bottom, black, #3e3b2f, #edd0a2, white);
