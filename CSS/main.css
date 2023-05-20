@@ -18,12 +18,16 @@ a:hover {
 
 /* Parallax background */
 
-#grad {
+#grad1 {
     background-image: linear-gradient(to bottom, black, #3e3b2f, #edd0a2, white);
 }
+#grad2 {
+    background-image:linear-gradient(to right,rgba(255,255,255,0), rgba(255,255,255,1));
+}
+
 .circle {
-    height:100px;
-    width:100px;
+    height:500px;
+    width:500px;
     background-color:yellow;
     border-radius:50%;
 
@@ -32,6 +36,12 @@ a:hover {
     left:95%;
 
     overflow:hidden;
+}
+.moon {
+    box-shadow:5px 10px white;
+}
+.background,.foreground {
+    position:absolute;
 }
 
 .background-image {
