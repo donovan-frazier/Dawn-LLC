@@ -3,6 +3,15 @@ body {
     font-family:'Poppins', sans-serif;
 }
 
+html {
+    scroll-snap-type: y mandatory;
+    scroll-padding-top:30px;
+}
+section {
+    height:100vh;
+    scroll-snap-align: start;
+}
+
 a {
     color:#CBE9BF;
 }
