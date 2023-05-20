@@ -1,0 +1,25 @@
+a {
+    color:#CBE9BF;
+}
+a:hover {
+    color:#65BE41;
+}
+#grad {
+    background-image: linear-gradient(to bottom right, black,  #243337, #DEBA81);
+}
+.title {
+    font-size:5rem;
+    color:#CBE9BF;
+}
+.circle {
+    height:100px;
+    width:100px;
+    background-color:yellow;
+    border-radius:50%;
+
+    position:absolute;
+    top:90%;
+    left:95%;
+
+    overflow:hidden;
+}
