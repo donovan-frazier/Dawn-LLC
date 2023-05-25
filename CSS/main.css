@@ -43,6 +43,11 @@ a:hover {
     size:200%;
 }
 
+/* Header gradient */
+#header {
+    background-image: linear-gradient(to bottom right, black, #28003B, #EC00F6)
+}
+
 /* Package backgrounds */
 #basic {
     background-image: linear-gradient(to bottom right, #3A180D, #B87045);
