@@ -103,8 +103,8 @@
 
         <div class="row gy-3">
             <div class="col">
-                <div class="card" style="box-shadow:5px 10px;">
-                    <div class="card-body">
+                <div class="card" style="box-shadow:5px 10px;" id="basic">
+                    <div class="card-body text-white">
                         <h3 class="card-title">Basic Package</h3>
                         <p>Images and graphics provided by the user</p>
                         <ul>
@@ -115,8 +115,8 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card" style="box-shadow:5px 10px;">
-                    <div class="card-body">
+                <div class="card" style="box-shadow:5px 10px;" id="silver">
+                    <div class="card-body text-white">
                         <h3 class="card-title">Silver Package</h3>
                         <p>Custom images, svg, and icons included in pricing</p>
                         <ul>
@@ -127,8 +127,8 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card" style="box-shadow:5px 10px;">
-                    <div class="card-body">
+                <div class="card" style="box-shadow:5px 10px;" id="gold">
+                    <div class="card-body text-white">
                         <h3 class="card-title">Gold Package</h3>
                         <p>Interactive elements such as a dark mode and animations and integrations</p>
                         <ul>
@@ -147,8 +147,8 @@
 
         <div class="row gy-3">
             <div class="col">
-                <div class="card" style="box-shadow:5px 10px;">
-                    <div class="card-body">
+                <div class="card" style="box-shadow:5px 10px;" id="atomic">
+                    <div class="card-body text-white">
                         <h3 class="card-title">Video Productions</h3>
                         <p>Video with footage provided by the user</p>
                         <ul>
@@ -158,8 +158,8 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card" style="box-shadow:5px 10px;">
-                    <div class="card-body">
+                <div class="card" style="box-shadow:5px 10px;" id="atomic">
+                    <div class="card-body text-white">
                         <h3 class="card-title">Icons</h3>
                         <p>Svg icons created for the user</p>
                         <ul>
@@ -169,8 +169,8 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card" style="box-shadow:5px 10px;">
-                    <div class="card-body">
+                <div class="card" style="box-shadow:5px 10px;" id="atomic">
+                    <div class="card-body text-white">
                         <h3 class="card-title">Brand Logo</h3>
                         <p>Svg and png of a brand logo</p>
                         <ul>
@@ -180,8 +180,8 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card" style="box-shadow:5px 10px;">
-                    <div class="card-body">
+                <div class="card" style="box-shadow:5px 10px;" id="atomic">
+                    <div class="card-body text-white">
                         <h3 class="card-title">Integrations</h3>
                         <p>Integrations from external sites and apps such as Shopify, Paypal, Docusign, and YouTube</p>
                         <ul>
@@ -208,16 +208,23 @@
             <div class="col-8">
 
                 <form action="https://formspree.io/f/mqkopnyk" method="POST">
-                    <div class="row form-floating">
-                        <input type="text" name="Name" placeholder="Name..." class="form-control" aria-describedby="Name" id="Name">
-                        <label for="Name">Name</label>
-                        <div class="form-text">Your email will never be shared!</div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-floating">
+                                <input type="text" name="Name" placeholder="Name..." class="form-control" aria-describedby="Name" id="Name">
+                                <label for="Name">Name</label>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="form-floating">
+                                <input type="email" name="Email" placeholder="Email..." class="form-control">
+                                <label for="Email">Email</label>
+                            </div>
+                        </div>
                     </div>
-                    
-                    <div class="row form-floating">
-                        <input type="email" name="Email" placeholder="Email..." class="form-control">
-                        <label for="Email">Email</label>
-                    </div>
+
+                    <div class="form-text">Your email will never be shared!</div>
 
                     <div class="row">
                         <div class="col">
@@ -270,7 +277,7 @@
                     
                     <div class="row">
                         <label for="Message"></label>
-                        <textarea type="message" name="Message" style="height:200px;" placeholder="Message..." class="form-control"></textarea>
+                        <textarea rows="10" type="message" name="Message" placeholder="Message..." class="form-control"></textarea>
                     </div>
                     
 

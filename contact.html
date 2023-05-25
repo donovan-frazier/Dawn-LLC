@@ -73,21 +73,51 @@
 
     </nav>
 
-    <div class="container">
-        <div>
-            <form action="https://formspree.io/f/mqkopnyk" method="POST">
-                <label for="Name"></label>
-                <input type="text" name="Name" placeholder="Name"><br>
+    <div class="container" style="padding:50px;">
+        <h1 class="text-center">Get in Contact</h1>
+    </div>
 
-                <label for="Email"></label>
-                <input type="email" name="Email" placeholder="Email"><br>
+    <div class="container" style="padding-bottom:50px;">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-8">
+                <form action="https://formspree.io/f/mqkopnyk" method="POST">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-floating">
+                                <input type="text" name="Name" placeholder="Name..." class="form-control" aria-describedby="Name" id="Name">
+                                <label for="Name">Name</label>
+                            </div>
+                        </div>
+    
+                        <div class="col">
+                            <div class="form-floating">
+                                <input type="email" name="Email" placeholder="Email..." class="form-control">
+                                <label for="Email">Email</label>
+                            </div>
+                        </div>
+                    </div>
 
-                <label for="Message"></label>
-                <textarea type="message" name="Message" style="height:200px;" placeholder="Message"></textarea>
-
-            <!-- your other form fields go here -->
-                <button type="submit">Send</button>
-            </form>
+                    <div class="form-text">Your email will never be shared!</div>
+                    
+                    <br>
+    
+                    <div class="row">
+                        <label for="Message"></label>
+                        <textarea rows="10" type="message" name="Message" placeholder="Message..." class="form-control"></textarea>
+                    </div>
+    
+                <!-- your other form fields go here -->
+                    <div class="row" style="padding:20px;">
+                        <div class="col"></div>
+                        <div class="col">
+                            <button type="submit" class="btn btn-outline-dark" style="width:100%;">Send</button>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                </form>
+            </div>
+            <div class="col"></div>
         </div>
     </div>
 

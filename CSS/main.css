@@ -1,7 +1,7 @@
 body {
     margin:0;
     font-family:'Poppins', sans-serif;
-    background-color:#F8F3EC;
+    background-color:#E4D0B4;
 }
 .title {
     font-size:5rem;
@@ -41,6 +41,29 @@ a:hover {
     background-image:radial-gradient(circle, rgba(255,255,255,1), rgba(255,255,255,0));
     border-radius:50%;
     size:200%;
+}
+
+/* Package backgrounds */
+#basic {
+    background-image: linear-gradient(to bottom right, #3A180D, #B87045);
+    text-shadow:0 0 5px black;
+}
+#silver {
+    background-image: linear-gradient(to bottom right, #4D4D4D, #BFBFBF);
+    text-shadow:0 0 5px black;
+}
+#gold {
+    background-image: linear-gradient(to bottom right, #654017, #E9C467);
+    text-shadow:0 0 5px black;
+}
+
+#carte {
+    background-image: linear-gradient(to bottom right, #E6C6EB, white);
+    text-shadow:0 0 5px black;
+}
+#atomic {
+    background-image: linear-gradient(to bottom right, #9967CB, #D5C8DE);
+    text-shadow:0 0 5px black;
 }
 
 .circle {
