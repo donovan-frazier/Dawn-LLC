@@ -45,7 +45,7 @@ a:hover {
 
 /* Header gradient */
 #header {
-    background-image: linear-gradient(to bottom right, black, #28003B, #EC00F6)
+    background-image: linear-gradient(to bottom right, black, black, #3e3b2f, #edd0a2)
 }
 
 /* Package backgrounds */
