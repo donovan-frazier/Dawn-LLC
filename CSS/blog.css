@@ -33,39 +33,42 @@ a:hover {
 }
 
 /* Text properties */
-h1 {
+h1, h1 a {
     text-shadow: 10px 10px #CE9FA3;
     font-size: 3.5rem;
 }
-h2 {
+h2, h2 a {
     font-size: 3.25rem;
 }
-h3 {
+h3, h3 a {
     font-size: 3rem;
 }
-h4 {
+h4, h4 a {
     font-size: 2.75rem;
 }
-h5 {
+h5, h5 a {
     font-size: 2.5rem;
 }
-h6 {
+h6, h6 a {
     font-size: 2rem;
 }
-.navbar-brand {
+.navbar-brand, .navbar-brand a {
     font-size: 2rem;
 }
-p {
+p, p a, footer a {
     font-size: 1.75rem;
 }
 li {
     font-size: 1.75rem;
 }
-a {
+form, label, input, option, textarea, .form-control, .form-select {
     font-size: 1.75rem;
 }
-figcaption {
-    font-size: 1rem;
+.btn {
+    font-size: 1.75rem;
+}
+figcaption, .badge {
+    font-size: 1.5rem;
 }
 
 /* Article styling for blog landing page*/
