@@ -1,7 +1,9 @@
 body {
     margin:0;
     font-family:'Poppins', sans-serif;
-    background-color:#E4D0B4;
+
+    background-color:#FBF8E9;
+    color:black;
 }
 .title {
     font-size:5rem;
@@ -34,7 +36,7 @@ a:hover {
 
 /* Text properties */
 h1, h1 a {
-    text-shadow: 10px 10px #CE9FA3;
+    text-shadow: 5px 5px #7A00B8;
     font-size: 3.5rem;
 }
 h2, h2 a {
@@ -72,7 +74,6 @@ figcaption, .badge {
 }
 
 /* Article styling for blog landing page*/
-
 article {
     padding:20px;
 }
@@ -85,6 +86,36 @@ article a {
 }
 article a:hover {
     background-color:gray;
+}
+.article-head {
+    padding:20px;
+    color:white;
+}
+.article-spacer {
+    background-image: linear-gradient(to bottom left, #EC00F5, white, white);
+    padding:none;
+    height:50px;
+}
+.article-spacer hr {
+    color:white;
+}
+.article-body {
+    padding:20px;
+}
+.article-body a {
+    color:#7A00B8;
+}
+.article-body a:hover {
+    color:#52007A;
+}
+.quote-card {
+    border-style:solid;
+    border-width:5px;
+    border-color:#F97AFF;
+    border-radius:20px;
+    background-color:black;
+
+    width:75%;
 }
 
 
@@ -102,34 +133,26 @@ article a:hover {
 
 /* Header gradient */
 #header {
-    background-image: linear-gradient(to bottom right, black, black, #3e3b2f, #edd0a2)
+    background-image: linear-gradient(to bottom right, black, black, #28003B)
 }
-
-/* Package backgrounds */
-#basic {
-    background-image: linear-gradient(to bottom right, #3A180D, #B87045);
-    text-shadow:0 0 5px black;
-}
-#silver {
-    background-image: linear-gradient(to bottom right, #4D4D4D, #BFBFBF);
-    text-shadow:0 0 5px black;
-}
-#gold {
-    background-image: linear-gradient(to bottom right, #654017, #E9C467);
-    text-shadow:0 0 5px black;
-}
-
-#carte {
-    background-image: linear-gradient(to bottom right, #9967CB, #D5C8DE);
-    text-shadow:0 0 5px black;
+#solar {
+    background-image: linear-gradient(to bottom right, black, black, black, black, #EBD787, #DCABAB)
 }
 #atomic {
     background-image: linear-gradient(to bottom right, black, #28003B, #EC00F6);
     text-shadow:0 0 5px black;
 }
 
+
 .text-gradient {
     background-image: linear-gradient(45deg, #f3ec78, #D8A1B2);
+    -webkit-background-clip:text;
+    -moz-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    -moz-text-fill-color:transparent;
+}
+.text-gradient2 {
+    background-image: linear-gradient(45deg, #F97AFF, #FCCDFE);
     -webkit-background-clip:text;
     -moz-background-clip:text;
     -webkit-text-fill-color:transparent;
